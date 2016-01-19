@@ -2,7 +2,7 @@
 
 map_vec = map(:);
 
-%State Transition
+% State Transition
 new_state = state;
 switch action
     case 1 % UP
