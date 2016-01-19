@@ -2,6 +2,7 @@
 
 map_vec = map(:);
 
+%State Transition
 new_state = state;
 switch action
     case 1 % UP
@@ -30,7 +31,7 @@ if map_vec(new_state) == WALL % Wall Treatment
     
     new_state = state;
 
-elseif map_vec(new_state) == GOAL % Goal teratment : episode terminated
+elseif map_vec(new_state) == GOAL % Goal treatment : episode terminated
 
     goal_flag = 1;
 
